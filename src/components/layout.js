@@ -15,7 +15,6 @@ import "./layout.css"
 const Layout = ({children})=>{
  return(
    <div>
-  <Header/>
   <main id="main-content">{children}</main>
   </div>
  )
