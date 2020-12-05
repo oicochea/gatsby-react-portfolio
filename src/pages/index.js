@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import About from "../components/aboutMe"
 import Hero from "../components/hero"
 import Header from "../components/header"
+import Projects from "../Projects"
 // import { Link } from "gatsby"
 
 // import Layout from "../components/layout"
@@ -14,9 +15,10 @@ const IndexPage = () => {
   return (
    
     <Layout>
-       <Header/>
+      <Header/>
       <Hero/>
       <About/>
+      <Projects/>
     </Layout>
   
   )

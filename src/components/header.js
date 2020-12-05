@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => (
     <nav className="topNav">
       <a className="topLinks" target= "_blank" href="https://github.com/oicochea"> Github</a>
       <a className="topLinks" target= "_blank"href="https://www.linkedin.com/in/oscaricocheacalenzani/"> Linkedin</a>
-      <a className="topLinks" target= "_blank"href="#">Projects</a>
+      <a className="topLinks"  href="#projectsContainer">Projects</a>
       <a className="topLinks"target= "_blank"href="https://docs.google.com/document/d/e/2PACX-1vQ8V0YglEIJD2cpvuDU3zPeFE-O2UnALJFHtFKbFrIR4VFWuqr5Xww9Lf7MHDO60yiSBaWEzPzkAwWc/pub">Resume</a>
     </nav>
     {/* <div
