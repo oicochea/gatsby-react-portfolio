@@ -3,13 +3,14 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
+  <header>
+    <nav className="topNav">
+      <a target= "_blank" href="https://github.com/oicochea"> Github</a>
+      <a target= "_blank"href="https://www.linkedin.com/in/oscaricocheacalenzani/"> Linkedin</a>
+      <a target= "_blank"href="#">Projects</a>
+      <a target= "_blank"href="https://docs.google.com/document/d/e/2PACX-1vQ8V0YglEIJD2cpvuDU3zPeFE-O2UnALJFHtFKbFrIR4VFWuqr5Xww9Lf7MHDO60yiSBaWEzPzkAwWc/pub">Resume</a>
+    </nav>
+    {/* <div
       style={{
         margin: `0 auto`,
         maxWidth: 960,
@@ -27,7 +28,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-    </div>
+    </div> */}
   </header>
 )
 
