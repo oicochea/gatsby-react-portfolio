@@ -1,13 +1,21 @@
 import React from "react";
-import Projectsjsx from "./components/projects";
+import Projectsjsx from "./components/projects.jsx";
 
-
-class Projects extends React.Component {
-  render() {
-    return (
-      <>
+const Projects = ({props}) => {
+  
+  return(
         <body>
+                      <h1 className="projectTitle">PROJECTS:</h1>
           <div className="projectsContainer" id="projectsContainer" >
+          <div className="item">
+          <Projectsjsx
+                name={"Js Basic Calculator"}
+                git={"https://github.com/oicochea/jscalculator"}
+                live={"https://zen-bhaskara-3b249f.netlify.app/"}
+                img={"https://i.imgur.com/F1wlROB.png"}
+                alt={"JSCalculator"}
+              />
+              </div>
             <div className="item">
               <Projectsjsx
                 name={"Brewlette"}
@@ -22,15 +30,13 @@ class Projects extends React.Component {
                 name={"Self-List"}
                 git={"https://github.com/oicochea/Project-2"}
                 live={"https://oscarproject-2.herokuapp.com/"}
-                img={"https://i.imgur.com/iZhuzLG.png[/img"}
+                img={"https://i.imgur.com/iZhuzLG.png/img"}
                 alt={"self-list"}
               />
             </div>
           </div>
         </body>
-      </>
     );
   }
-}
 
 export default Projects;

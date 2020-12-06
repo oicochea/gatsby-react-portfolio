@@ -13,11 +13,12 @@ import Projects from "../Projects"
 const IndexPage = () => {
 
   return (
-   
     <Layout>
+      <div className="topThird">
       <Header/>
       <Hero/>
       <About/>
+    </div>
       <Projects/>
     </Layout>
   

@@ -597,38 +597,65 @@ pre tt:after {
 } */
 
 .aboutMe{
-  margin-top: 140px;
-  margin-left: 20%;
-  margin-right: 20%;
+  color: white;
+  height: fit-content;
+width: 1000px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+margin: auto;
+  padding-bottom: 20px;
 }
 .mePicture{
+  padding-left: 15px;
+  padding-top: 35px;
   height: 300px;
   border-radius: 30%;
   margin-right: 50px;
   float: left;
 }
 
+/* .topThird{
+  background-image: url("https://i.imgur.com/e7u3yBk.jpg");
+  background-size: cover; */
+/* } */
+
 #hero{
-margin-left: 15%;
-margin-right: 15%;
+  padding-top: 10px;
+  margin:auto;
+  border-radius: 10px;
+  background-image: url("https://i.imgur.com/ARHnu8p.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+font-family: 'Open Sans', sans-serif;
+height: 400px;
+width: 1000px;
 }
 
 .techSkills{
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: -15px;
 }
+.Skills:hover{
+    color: white;
+}
 .topNav{
+  background-color:black;
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   justify-content:flex-end;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 20px;
+  padding-right:60px;
+  margin-bottom: 30px;
 }
 .topNav a{
   padding-bottom: 10px;
-  color: black;
-  margin-left: 100px;
+  color:white;
+  margin-left: 30px;
   font-size: 18px;
   text-decoration: none;
+  padding-top: 10px;
+
 
 }
 
@@ -644,7 +671,7 @@ a.topLinks:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: darkgreen;
+  background-color: whitesmoke;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out;
@@ -654,8 +681,12 @@ a.topLinks:hover:before {
   transform: scaleX(1);
 }
 
+.projectTitle{
+  text-align: center;
+  margin-bottom: 20px;
+}
 .projectsContainer{
-  margin-top: 10%;
+  margin-top: 10px;
   margin-right: 10%;
   margin-left: 10%;
   display: flex;
@@ -688,4 +719,17 @@ a.topLinks:hover:before {
 }
 .projectsContainer h3 {
   margin: 30px;
+}
+
+
+
+.wholePage{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #bab2b5;
+  margin: -15px;
+  margin-bottom: 25px;
+}
+
+.title{
+margin-top: 100px;
 }

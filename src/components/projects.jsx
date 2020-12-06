@@ -1,7 +1,8 @@
 import React from "react";
 
-class Projectsjsx extends React.Component {
-  render() {
+ 
+ class Projectsjsx extends React.Component {
+   render(){
     return (
       <>
         <h1> {this.props.name} </h1>
@@ -24,5 +25,5 @@ class Projectsjsx extends React.Component {
     );
   }
 }
-
 export default Projectsjsx;
+
