@@ -9,7 +9,7 @@ const Hero = () => {
       </h1>
     
       <h2 className="whatIdo">
-    I'm a bilingual Full Stack Software Engineer, and this is my portfolio page
+    I'm a bilingual Full Stack Software Engineer<br/>Welcome to my portfolio
       </h2>
       <h3 className="techSkills"> Technical Skills:</h3>
       <h4 className="Skills">
