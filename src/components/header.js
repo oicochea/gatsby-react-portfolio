@@ -39,7 +39,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Oscar Icochea Calenzani Portfolio`,
 }
 
 export default Header
