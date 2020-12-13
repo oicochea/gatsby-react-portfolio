@@ -16,11 +16,19 @@ import React from "react";
           <a target="_blank" href={this.props.live}>
             Live App
           </a>
+          <div>
+            <h4>About</h4>
+            {this.props.about}
+          </div>
+          <div>
+            <h4>Skills</h4>
+            {this.props.skills}
+          </div>
         </h3>
         <img
           src={this.props.img}
           alt={this.props.alt}
-          className="img-responsive"
+          // className="img-responsive"
         ></img>
       </>
     );

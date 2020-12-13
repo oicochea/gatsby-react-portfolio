@@ -9,7 +9,7 @@ const Cards= () => {
         <div class="
         container">
 <img clsssName="image" src="https://i.imgur.com/otMnhmM.png"alt="Calculator App Screen Shot"   width="100%" ></img>
-<a href="#garageVision">
+<a href="#calculator">
 <div class="overlay">
     <div class="text">Calculator <br/>View More</div>
   </div>
@@ -18,7 +18,7 @@ const Cards= () => {
   <div class="
         container">
 <img clsssName="image" src="https://i.imgur.com/hhxAQWm.jpg"alt="Brewlette App Screen Shot"   width="100%" ></img>
-<a href="#garageVision">
+<a href="#Brewlette">
 <div class="overlay">
     <div class="text">Brewlette <br/>Drink More</div>
   </div>
