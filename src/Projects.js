@@ -28,8 +28,8 @@ const Projects = ({props}) => {
                 live={"https://oicochea.github.io/Project-1/"}
                 img={"https://i.imgur.com/wQckcRK.png"}
                 alt={"brewlette"}
-                about={"Application where the user gets to input their zipcode and brewery is ramdonly selected for them. User can use drag and drop feature to 'like or dislike' the brewery. Features also include call button that brings up mobile interface with preloaded number and link to the brewey "}
-                skills={"JS,Jquery,HTML,CSS,API"}
+                about={"Application where the user gets to input their zipcode and brewery is ramdonly selected for them. User can use drag and drop feature to 'like or dislike' the brewery. Features also include call button that brings up mobile interface with preloaded number and link to the brewery "}
+                skills={"JS,Jquery,HTML,CSS,API,Sticky Nav,Drag and Drop into appendTo"}
               />
             </div>
             <div className="item" id="self-List">
@@ -39,6 +39,8 @@ const Projects = ({props}) => {
                 live={"https://oscarproject-2.herokuapp.com/"}
                 img={"https://i.imgur.com/iZhuzLG.png/img"}
                 alt={"self-list"}
+                about={"A shoppinglist App that allows you to keep track of what you need to buy, edit, delete, and update the items. This includes priority and images input and link to online purchase system. Can also create a household list and manage different list, shared list display user who added which item"}
+                skills={"Mongoose, Express, React, Node.js and EJS,MVC file structure,CRUD,Schema,Heroku,Login/Signup with Auth "}
               />
               </div>
                 <div className="item" id="Ubuntu">
