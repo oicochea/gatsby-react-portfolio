@@ -4,6 +4,8 @@ import Projectsjsx from "./components/projects.jsx";
 const Projects = ({props}) => {
   
   return(
+
+    
         <body>
                       <h1 className="projectTitle">PROJECTS:</h1>
           <div className="projectsContainer" id="projectsContainer" >
@@ -43,7 +45,7 @@ const Projects = ({props}) => {
                 alt={"I am becasue we are"}
               />
             </div>
-            <div className="item">
+            <div className="item" id="garageVision">
               <Projectsjsx
                 name={"Garage Vision"}
                 git={"https://github.com/oicochea/garage-app-client"}
@@ -53,6 +55,7 @@ const Projects = ({props}) => {
               />
             </div>
           </div>
+          
         </body>
     );
   }

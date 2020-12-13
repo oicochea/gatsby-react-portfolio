@@ -4,6 +4,8 @@ import About from "../components/aboutMe"
 import Hero from "../components/hero"
 import Header from "../components/header"
 import Projects from "../Projects"
+import Cards from "../components/cards"
+
 // import { Link } from "gatsby"
 
 // import Layout from "../components/layout"
@@ -19,6 +21,7 @@ const IndexPage = () => {
       <Hero/>
       <About/>
     </div>
+      <Cards/>
       <Projects/>
     </Layout>
   

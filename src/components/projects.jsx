@@ -5,6 +5,7 @@ import React from "react";
    render(){
     return (
       <>
+
         <h1> {this.props.name} </h1>
         <h3>
           <a target="_blank" href={this.props.git}>
