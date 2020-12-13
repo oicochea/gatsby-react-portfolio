@@ -597,13 +597,19 @@ pre tt:after {
 } */
 
 .aboutMe{
-  color: white;
+  
+  background-color: white;
+  color: black;
   height: fit-content;
 width: 1000px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-margin: auto;
-  padding-bottom: 20px;
+/* margin: auto; */
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
 }
 .mePicture{
   padding-left: 15px;
@@ -700,16 +706,21 @@ a.topLinks:hover:before {
 }
 
 .projectsContainer .item {
-  background-color: #5B270B;
+ 
+  background-color: black;
   border-radius: 5px;
-  border: 1px solid black;
   margin-bottom: 40px;
+}
+
+.item{
+  border: 5px solid white;
+
 }
 .projectsContainer a {
   text-shadow: #000 0px 0px 3px;
   padding: 6px;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid white;
   text-decoration: none;
   color: whitesmoke;
 }
@@ -725,7 +736,8 @@ a.topLinks:hover:before {
 
 .wholePage{
   font-family: 'Open Sans', sans-serif;
-  background-color: #bab2b5;
+  /* background-color: #bab2b5; */
+  background-color: rgba(34, 49, 63);
   margin: -15px;
   margin-bottom: 25px;
 }

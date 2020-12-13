@@ -33,6 +33,24 @@ const Projects = ({props}) => {
                 img={"https://i.imgur.com/iZhuzLG.png/img"}
                 alt={"self-list"}
               />
+              </div>
+                <div className="item">
+              <Projectsjsx
+                name={"I am because we are"}
+                git={"https://github.com/oicochea/ubuntu-backend"}
+                live={"https://practical-jones-b55cd9.netlify.app"}
+                img={"https://i.imgur.com/OtF4Qq7.png"}
+                alt={"I am becasue we are"}
+              />
+            </div>
+            <div className="item">
+              <Projectsjsx
+                name={"Garage Vision"}
+                git={"https://github.com/oicochea/garage-app-client"}
+                live={"https://kind-brattain-53f73d.netlify.app/"}
+                img={"https://i.imgur.com/CmS43B4.png"}
+                alt={"Garage Vision"}
+              />
             </div>
           </div>
         </body>
