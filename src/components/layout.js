@@ -15,7 +15,7 @@ import "./layout.css"
 const Layout = ({children})=>{
  return(
    <div className= "wholePage">
-  <main id="main-content"></main>
+  <main id="main-content">{children}</main>
   </div>
  )
 }
