@@ -23,9 +23,9 @@ const IndexPage = () => {
       <About/>
     </div>
       <Cards/>
-      <Contact/>
+   
       <Projects/>
-
+      <Contact/>
     </Layout>
   
   )
