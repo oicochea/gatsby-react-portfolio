@@ -742,7 +742,9 @@ a.topLinks:hover:before {
   /* background-color: #bab2b5; */
   background-color: rgba(34, 49, 63);
   margin: -15px;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
+  max-height: fit-content;
+  /* min-height: 1000vh; */
 }
 
 .title{
@@ -801,4 +803,21 @@ margin-top: 100px;
 .cardsTitle{
   
   text-align: center;
+}
+
+.contactMeContainer{
+  max-height: min-content;
+  background-color: black;
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 35px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#main-content{
+  padding-bottom: 20px;
 }
