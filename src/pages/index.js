@@ -5,6 +5,7 @@ import Hero from "../components/hero"
 import Header from "../components/header"
 import Projects from "../Projects"
 import Cards from "../components/cards"
+import Contact from "../components/contactme"
 
 // import { Link } from "gatsby"
 
@@ -23,6 +24,7 @@ const IndexPage = () => {
     </div>
       <Cards/>
       <Projects/>
+      <Contact/>
     </Layout>
   
   )
