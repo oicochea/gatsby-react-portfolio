@@ -50,6 +50,8 @@ const Projects = ({props}) => {
                 live={"https://practical-jones-b55cd9.netlify.app"}
                 img={"https://i.imgur.com/OtF4Qq7.png"}
                 alt={"I am becasue we are"}
+                about={"Ubuntu is an application that allows users to sign up and log in to thier account to create, view, update, and/or delete community porjects in thier area"}
+                skills={"React,Node.js,Milligram,Flexbox,Mongoose,Express,Postman"}
               />
             </div>
             <div className="item" id="garageVision">
@@ -59,6 +61,8 @@ const Projects = ({props}) => {
                 live={"https://kind-brattain-53f73d.netlify.app/"}
                 img={"https://i.imgur.com/CmS43B4.png"}
                 alt={"Garage Vision"}
+                about={"A webApp that is a virtual Garage. Allows create user and JWT token auth. User can create vehicles, delete a vehicle and edit a vehicle. Each vehicle has a Make, Model,Year, Miles, Image and Services Section. The this can be editable , the user is recommened to keep adding services and the date so maintain a log of the services the car has recieved"}
+                skills={"Rails,JSON, API,One to Many Relationshipm Scaffold, CRUD, MOdels, Schema, Heroku, Netlify"}
               />
             </div>
           </div>
