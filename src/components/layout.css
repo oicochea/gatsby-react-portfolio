@@ -641,9 +641,9 @@ width: 1000px;
   font-family: 'Open Sans', sans-serif;
   margin-bottom: -15px;
 }
-.Skills:hover{
+/* .Skills:hover{
     color: white;
-}
+} */
 .topNav{
   background-color:black;
   font-family: 'Open Sans', sans-serif;
@@ -703,6 +703,8 @@ a.topLinks:hover:before {
 
 
 .projectsContainer img {
+  margin-top: -400px;
+  float: left;
   width: 30%;
 }
 
